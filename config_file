@@ -1,0 +1,15 @@
+1. create .gitignore file 
+2. create composer.json file
+3. download heroku cli
+4. heroku login // email & password
+5. issue ssh-keygen -t rsa
+6. issue heroku
+7. issue git init
+8. issue git config user.name " alexander adade"
+9. issue git config user.email "alexanderadadd@gmail.com"
+10. issue git add *
+11. issue git commit -m "first commit"
+12. issue heroku create rundisk-solution-limited
+13. issue heroku app:remote -a rundisk-solution-limited
+14. issue heroku buildpacks:set heroku/php
+15. issue git push heroku master
